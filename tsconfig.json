@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "lib": ["ES2023"],
+        "module": "Node16",
+        "target": "ES2022",   
+        "strict": true,
+        "noImplicitAny": true,
+        "strictNullChecks": true                
+    }
+}

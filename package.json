@@ -1,0 +1,24 @@
+{
+  "name": "aula-base",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "eslint": "npx eslint .",
+    "fix": "npx eslint . --fix",
+    "format": "npx prettier --write ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^9.16.0",
+    "@types/node": "^22.9.4",
+    "eslint": "^9.16.0",
+    "prettier": "3.4.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.17.0"
+  }
+}
